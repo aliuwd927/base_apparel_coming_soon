@@ -112,12 +112,8 @@ body{
     font-weight: 400;
 }
 
-#hidden{
+#hiddenEx, #hiddenPls{
     visibility: hidden;
-}
-
-#show{
-    visibility: visible;
 }
 
 .right_Container{
