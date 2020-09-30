@@ -12,5 +12,7 @@ submit.addEventListener('click', function(){
         //alert('container is empty'); /* Test container field is empty */
         document.getElementById('hiddenEx').style.visibility = 'visible';
         document.getElementById('hiddenPls').style.visibility = 'visible';
+        document.getElementById('submit').style.borderColor = ' red';
+        document.getElementById('email').style.borderColor = ' red';
     }
 })
