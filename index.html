@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
@@ -14,13 +15,22 @@
     <div class="left_Container">
       <section class= "comingSoon_Container">
         <div class="comingSoonTxt_Container">
-          <p class = 'text_1'>We're Coming Soon</p>
+          <div class = 'text_1_container'>
+            <p class="wcs_text_1">WE'RE</p>
+            <p class="wcs_text_2">COMING</p>
+            <p class="wcs_text_3">SOON</p>
+          </div>
           <p class = 'text_2'>Hello fellow shoppers! We're currently building our new fashion store. Add 
             your email below to stay up-to-date with announcements and our launch deals.
           </p>
         </div>
         <div class="emailJS_Container">
-          Email
+          <div class="email">
+            <input type="email" class="email" name='email' placeholder= "&nbsp &nbsp &nbsp Email Address">
+            <button class='submitButton_Container'>
+              <img src="/images/icon-arrow.svg" alt="">
+            </button>
+          </div>
         </div>
       </section>
     </div>
