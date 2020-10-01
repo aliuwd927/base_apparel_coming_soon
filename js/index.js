@@ -10,7 +10,7 @@ const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\
 submit.addEventListener('click', function(){
     //alert('a');    /*Test button on click to ensure stacking order is correct*/
     if(!!regex.test(email.value)) {
-        alert('y');
+        alert('Please check email for notifications!');
         document.getElementById('hiddenEx').style.visibility = 'hidden';
         document.getElementById('hiddenPls').style.visibility = 'hidden';
         document.getElementById('submit').style.borderColor = ' black';

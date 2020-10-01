@@ -8,7 +8,6 @@ body{
     height: 100vh;
     width: 100vw;
     max-width: 100%;
-    font-size: 1rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -52,7 +51,7 @@ body{
 .wcs_text_1, .wcs_text_2, .wcs_text_3{
     width: 100%;
     font-size: 3.125rem;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.5rem;
 }
 
 .wcs_text_1{
@@ -122,4 +121,43 @@ body{
     background-image: url(/images/hero-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 950px){
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .main_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .comingSoon_Container{
+        margin-top: -100px;
+    }
+    .text_1_container{
+        width: 100%;
+    }
+    .wcs_text_1, .wcs_text_2, .wcs_text_3{
+        width: 100%;
+        font-size: 32px;
+        letter-spacing: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emailJS_Container{
+        margin-top: 1%;
+    }
+
+    .right_Container{
+        height: 100vh;
+        width: 100%;
+    }
 }
